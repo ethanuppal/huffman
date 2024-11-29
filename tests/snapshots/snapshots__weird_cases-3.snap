@@ -1,0 +1,26 @@
+---
+source: tests/snapshots.rs
+expression: "helper(&[('a', 0.0), ('b', 0.0), ('c', 0.0), ('d', 0.5), ('e', 0.5)])"
+---
+[
+    (
+        'd',
+        ValueOwned(0),
+    ),
+    (
+        'b',
+        ValueOwned(100),
+    ),
+    (
+        'a',
+        ValueOwned(1010),
+    ),
+    (
+        'c',
+        ValueOwned(1011),
+    ),
+    (
+        'e',
+        ValueOwned(11),
+    ),
+]
