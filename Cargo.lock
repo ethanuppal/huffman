@@ -99,7 +99,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "huffman"
+name = "huffman-idk"
 version = "0.1.0"
 dependencies = [
  "baa",

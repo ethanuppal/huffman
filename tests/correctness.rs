@@ -2,6 +2,8 @@
 
 use proptest::prelude::*;
 
+use huffman_idk as huffman;
+
 mod common;
 
 #[derive(Debug)]

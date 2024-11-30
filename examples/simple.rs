@@ -1,5 +1,7 @@
 // Copyright (C) 2024 Etham Uppal. All rights reserved.
 
+use huffman_idk as huffman;
+
 fn main() {
     println!(
         "{:?}",
