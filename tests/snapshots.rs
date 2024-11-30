@@ -3,6 +3,8 @@
 use baa::BitVecValue;
 use insta::assert_debug_snapshot;
 
+use huffman_idk as huffman;
+
 mod common;
 
 fn helper(alphabet: &[(char, f64)]) -> Vec<(char, BitVecValue)> {
